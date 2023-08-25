@@ -40,7 +40,7 @@ build:
 requirements:
   run_constrained:
     # Prevent clobbering with cccl
-    - cccl <0a0
+    - cccl <0.0.0a0
 
 test:
   commands:
