@@ -34,8 +34,13 @@ source:
     sha256: d7864460ce8def8e0620cb9dd891e94299ade75eac75aa96b34001af3cdb074c  # [win]
 
 build:
-  number: 0
+  number: 1
   skip: true  # [osx]
+
+requirements:
+  run_constrained:
+    # Prevent clobbering with cccl
+    - cccl <0.0.0a0
 
 test:
   commands:
