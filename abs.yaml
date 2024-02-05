@@ -1,0 +1,8 @@
+channels:
+  - lc030263
+upload_channels:
+  - lc030263
+
+upload_to_staging_channel_in_pr: False
+
+upload_without_merge: True
