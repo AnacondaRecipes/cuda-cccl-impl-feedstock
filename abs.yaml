@@ -6,3 +6,5 @@ upload_channels:
 upload_to_staging_channel_in_pr: False
 
 upload_without_merge: True
+
+mark_private: True
